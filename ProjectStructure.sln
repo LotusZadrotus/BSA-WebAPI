@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSA-WebAPI", "BSA-WebAPI\BSA-WebAPI.csproj", "{161C5D7D-AAD8-412B-9026-11C71D43FD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSA-WebAPI.IntegratedTests", "BSA-WebAPI.IntegratedTests\BSA-WebAPI.IntegratedTests.csproj", "{BD000CB5-08C2-40D7-9A9E-332C02913A68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{161C5D7D-AAD8-412B-9026-11C71D43FD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161C5D7D-AAD8-412B-9026-11C71D43FD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161C5D7D-AAD8-412B-9026-11C71D43FD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161C5D7D-AAD8-412B-9026-11C71D43FD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD000CB5-08C2-40D7-9A9E-332C02913A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD000CB5-08C2-40D7-9A9E-332C02913A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD000CB5-08C2-40D7-9A9E-332C02913A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD000CB5-08C2-40D7-9A9E-332C02913A68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  back:
+    image: "nikitamikhalchenko/bsa-container"
+    ports: 
+        - "4040:4040"
+  db:
+    image: "mcr.microsoft.com/mssql/server"
+    environment: 
+        ACCEPT_EULA: "Y"
+        SA_PASSWORD: "My!Password"
+    ports:
+        - "1433:1433"
+    
